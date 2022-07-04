@@ -1,3 +1,5 @@
+import debounce from './debounce.js';
+
 export default class Slide {
     constructor(slide, wrapper) {
       this.slide = document.querySelector(slide)
@@ -136,4 +138,4 @@ export default class Slide {
       this.addResizeEvent();
       return this;
     }
-  }
+  } 
